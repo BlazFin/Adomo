@@ -42,6 +42,11 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+
+  --bs-custom1: #123456;
+  --bs-custom2: #abcdef;
+  --bs-custom3: #fedcba;
+
   --bs-primary-rgb: 255, 200, 0;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -89,6 +94,11 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+/* CUSTOM STYLES */
+.bgBlue{
+  
+  background-color: var(--bs-custom2) !important;
 }
 
 body {
